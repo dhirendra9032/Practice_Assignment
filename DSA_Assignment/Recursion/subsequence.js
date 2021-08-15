@@ -25,6 +25,8 @@ main(str,res);
 
 let str=["a","b","c","d"];
 let res="";
+var low=0;high=str.length-1;
+
 
 function subsequence(res,str,low, high)
     {
@@ -38,12 +40,7 @@ function subsequence(res,str,low, high)
         }
     }
     
-  function  main(str,res)
-    {
-    
-       subsequence(res,str,0,str.length-1);
-    }
+    subsequence(res,str,low, high);
 
-    main(str,res);
 
     
