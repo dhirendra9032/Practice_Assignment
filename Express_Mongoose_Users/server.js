@@ -41,12 +41,12 @@ const postSchema = new mongoose.Schema({
     userId:{
         type:mongoose.Schema.Types.ObjectId,
         ref:"user",
-        required:true;
+        required:true
     },
     tagId:{
         type:[mongoose.Schema.Types.ObjectId],
         ref:"tag",
-        required:true;
+        required:true
     }
 },{
     versionKey:false,
@@ -60,7 +60,7 @@ const commentSchema = new mongoose.Schema({
      postId:{
         type:mongoose.Schema.Types.ObjectId,
         ref:"post",
-        required:true;
+        required:true
     }
 },{
     versionKey:false,
