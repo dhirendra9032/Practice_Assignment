@@ -1,18 +1,17 @@
 {
-  "name": "Express_mongoose",
+  "name": "express_mongoose_users",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon index.js"
+    "server": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.11.15",
-    "nodemon": "^2.0.12"
+    "mongoose": "^5.11.15"
   }
 }
