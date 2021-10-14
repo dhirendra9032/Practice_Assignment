@@ -1,0 +1,11 @@
+.App{
+  width: 100%;
+  text-align: center;
+  /* display: grid;
+  padding: 50px 0;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: auto;
+  grid-gap:30px;
+  color: aqua;
+  justify-content: space-around; */
+}

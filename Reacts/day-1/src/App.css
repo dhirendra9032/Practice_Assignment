@@ -1,0 +1,11 @@
+body{
+  background-color: #282c34;
+  padding-top: 50px;
+}
+
+.App {
+  text-align: center;
+  color: rgb(247, 170, 27);
+  justify-content: space-between;
+}
+

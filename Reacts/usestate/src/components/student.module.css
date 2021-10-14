@@ -1,0 +1,31 @@
+.selected{
+    background: rgb(158, 191, 192);
+    text-align: center;
+    padding: 2rem;
+    color: rgb(15, 129, 95);
+    border: 1px solid rgb(180, 180, 180);
+}
+.unSelected{
+    background: rgb(235, 153, 46);
+    text-align: center;
+    padding: 2rem;
+    color: rgb(15, 129, 95);
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.card img{
+    width: 100px;
+    margin: 10 auto;
+}
+
+.todoinp{
+    width: 30%;
+    margin:40px auto;
+    
+}
+
+.todoinp h3{
+    color: aqua;
+}
+
+
