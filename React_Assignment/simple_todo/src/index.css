@@ -1,0 +1,79 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background: rgb(221, 221, 221);
+}
+
+
+
+.inpBox{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+
+ 
+  
+}
+
+.inpBox input{
+  width: 87%;
+  height: 50px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 5px auto;
+}
+
+.inpBox .inp{
+  height: 50px;
+  width: 10%;
+  outline: none;
+  border: none;
+ 
+  cursor: pointer;
+  text-align: center;
+  background: #fff;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: 500;
+ 
+}
+
+.outputBox{
+  width: 49%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  height: 50px;
+  color: bisque;
+  margin: 10px auto;
+  padding-left: 40px;
+  padding-right: 20px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.isToggle{
+  color: aqua;
+}
+
+.outputBox span{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 8px solid rgba(28, 224, 166, 0.867);
+  
+
+
+}
