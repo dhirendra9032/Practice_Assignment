@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+  }
+  body{
+    background: rgb(12, 12, 44);
+    color: #fff;
+  }
+
+  .input{
+    width: 200px;
+    margin: 50px auto;
+  }
+
+  .timer{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+  }
+
+  button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background: rgb(246, 173, 14);
+    margin: 20px;
+  }
+  
+  .form-wrapper{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 30px;
+    margin: 50px auto;
+    background: cadetblue;
+  }
+  
+  
+  .form-wrapper h2{
+    margin: auto auto 30px auto;
+    color: rgb(5, 22, 95);
+  }
+  
+  .form-wrapper input{
+    width: 80%;
+    margin: 10px auto;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border: none;
+  }
+  .form-wrapper select{
+    margin: 10px 5px;
+    outline: none;
+    border: none;
+  
+  }
+  
+  .form-wrapper div{
+    width: 80%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .form-wrapper div span{
+    margin:0 5px;
+  }
+  
+  .form-wrapper div label{
+    height: 20px;
+    font-size: 18px;
+    color: white;
+  }
+  .form-wrapper div input{
+    height: 20px;
+    width: 20px;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .form-wrapper button {
+    width: 30%;
+    height: 40px;
+    border: none;
+    margin: 10px auto;
+    background: rgb(241, 125, 17);
+  }
+  
+  .table{
+    color:rgb(9, 95, 66)
+  }
