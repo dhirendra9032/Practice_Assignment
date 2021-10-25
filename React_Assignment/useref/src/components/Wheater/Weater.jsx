@@ -12,16 +12,16 @@ useEffect(()=>{
  setLoading(true)
  axios({
      method:"get",
-     baseURL:" http://api.weatherapi.com/v1",
+     baseURL:" https://apisetu.gov.in/public/marketplace/api/cowin",
      url:"/current.json",
      params:{
-         q:state.query|| "lucknow",
+         q:state.query|| "Uttar Pradesh",
          key:" ef9aca0aacb345d6aa6111639212010"
      }
 
  })
  
- .then((res)=>setState({...state,data:res.data}))
+ .then((res)=>console.log(res.data))
  .catch((err)=>console.log(err))
  .finally(()=>setLoading(false))
 
