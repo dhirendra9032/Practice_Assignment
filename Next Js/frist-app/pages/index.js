@@ -1,21 +1,23 @@
-import Link from "next/link";
-import styles from "../style/home/style.module.css"
+import Link from "next/Link";
+import Navbar from "./navbar"
+import {withRouter} from "next/router"
+import style from "../style/style.module.css"
 
-const index = () => {
+
+
+const Index = (props) => {
+   
+   
+
     return (
-        <div className={styles.wrapper}>
-        <div className={styles.navbar}>
-            <h1>Next Js</h1>
-            <ul>
-                <li>Home</li>
-                <li></li>
-            </ul>
-        </div>
-
-            <Link href="/about">About Page</Link>
+        <div className={style.wrapper}>
+     
+            <Navbar/>
+         
             <h1>Hello!  Welcome to Landing Page</h1>
+           
         </div>
     )
 }
 
-export default index
+export default withRouter(Index) 

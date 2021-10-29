@@ -33,7 +33,7 @@ const handleLogin=(e)=>{
             <form onSubmit={handleLogin} className="form" >
                 <h1>User Login</h1>
                 <input type="text" placeholder="Enter email" value={email} onChange={(e)=>setEmail(e.target.value)} />
-                <input type="text" placeholder="Enter password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
+                <input type="password" placeholder="Enter password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
                 <Button type="submit" varient="contained">Login</Button>
                 
 

@@ -1,7 +1,7 @@
 
 .wrapper{
     width: 100%;
-   
+    text-align: center;
 
 }
 
@@ -16,5 +16,21 @@
     align-items: center;
     box-sizing: border-box
 
+}
+
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    margin: 0 30px;
+    list-style: none;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+}
+.navbar ul li a:hover{
+    color: chocolate;
 }
 

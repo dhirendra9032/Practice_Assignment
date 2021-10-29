@@ -49,7 +49,7 @@ export const Navbar = () => {
         <h1>Logo</h1>
             <ul>
             {
-                Links.map(({title,to},index)=><li key={index}><NavLink  to={to}>{title}</NavLink></li>
+                Links.map(({title,to},index)=><li key={index}><NavLink className="link"  to={to}>{title}</NavLink></li>
                    
                 )
             }

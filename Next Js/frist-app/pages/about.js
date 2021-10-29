@@ -1,11 +1,15 @@
-import React from 'react'
+import Navbar from "./navbar"
+import { withRouter } from "next/router"
+import style from "../style/style.module.css"
 
-const about = () => {
+const About = (props) => {
     return (
-        <div>
-            <h1>Hello I am About Page</h1>
+        <div className={style.wrapper}>
+        <Navbar/>
+          
+            <h1>Hello!  Welcome to About Page</h1>
         </div>
     )
 }
 
-export default about
+export default  withRouter(About)
