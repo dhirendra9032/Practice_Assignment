@@ -34,3 +34,28 @@
     color: chocolate;
 }
 
+
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: auto;
+    grid-gap:20px;
+    padding: 10px;
+    justify-content: space-around;
+
+}
+.grid div{
+    height: 200px;
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+
+}
+.grid div img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-left: 40px;
+}
+
+

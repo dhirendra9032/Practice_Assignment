@@ -17,6 +17,10 @@ import { withRouter } from "next/router"
         to:"Contact",
         path:"/contact"
     },
+    {
+        to:"Users",
+        path:"/users"
+    },
 ]
 
 
