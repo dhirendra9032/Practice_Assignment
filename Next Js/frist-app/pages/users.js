@@ -2,10 +2,12 @@ import { useEffect,useState } from "react"
 import Navbar from "./navbar"
 import style from "../style/style.module.css"
 import axios from "axios"
+import { useRouter } from "next/router"
+
 
 
 const users = () => {
-
+    const router=useRouter()
     const [userData,setUserData]=useState([])
 useEffect( ()=>{
 
@@ -28,6 +30,7 @@ console.log(userData)
                             <img src={item.avatar} alt="avatar"/>
                             <h4>{item.first_name}</h4>
                             <h5>{item.email}</h5>
+                            <button onClick={()=>router.push(`/users/${item.id}`)}>More..</button>
                         </div>
                     })
                 }
