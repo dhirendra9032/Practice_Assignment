@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;;
+}
+
+body{
+    background: rgb(10, 11, 12);
+}
+
+.icon_i{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
