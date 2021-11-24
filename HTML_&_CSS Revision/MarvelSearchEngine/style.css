@@ -1,0 +1,42 @@
+.bg {
+    background: url("./54688.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+   
+
+}
+
+.box {
+    width: 50%;
+    display: flex;
+    margin: 0 auto;
+    color: rgb(207, 18, 18);
+}
+
+#output {
+    display: flex;
+    height: 539px;
+    overflow: scroll;
+    flex-direction: column;
+   
+    position: relative;
+}
+
+#output::-webkit-scrollbar {
+    display: none;
+  }
+
+#output div {
+margin: 0 auto;
+    width: 80%;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+    
+   
+}
