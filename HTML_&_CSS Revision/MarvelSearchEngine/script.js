@@ -36,12 +36,11 @@ async function getData(inp) {
         let div=document.createElement('div');
         let name=document.createElement('p');
         name.textContent=title;
-        name.addEventListener('onclick',()=>{
-            console.log("hello")
-            })
         div.appendChild(name);
 
-      
+      div.addEventListener('onclick',()=>{
+       console.log("hello")
+       })
         output.append(div);
 
     }
