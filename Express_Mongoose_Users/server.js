@@ -1,15 +1,16 @@
 const express = require("express");
-
+const cors=require('cors')
 const app = express();
 
 const mongoose = require("mongoose");
 
 //const users = [];
 app.use(express.json())
+app.use(cors());
 
 // we have coonnect with mangoose 
 const connect = () => {
-    return mongoose.connect("mongodb://127.0.0.1:27017/web_10_db",{
+    return mongoose.connect("mongodb+srv://dhirendra:9032240dk@cluster0.5sidz.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",{
      
         useNewUrlParser: true,
         useUnifiedTopology: true, 
@@ -26,7 +27,7 @@ const userShema = new mongoose.Schema({
     last_name : String,
     email : String,
     gender : String,
-    age : Number
+    ip_address : String
 },{
     versionKey:false
 })

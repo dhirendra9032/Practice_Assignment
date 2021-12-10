@@ -3,6 +3,10 @@ const express = require("express");
 let data = require("./users.json");
 const app = express();
 
+app.get("/users",(req,res)=>{
+    res.send(data)
+})
+
 app.get("/users:id", (req,res)=>{
     res.send(data);
 })
