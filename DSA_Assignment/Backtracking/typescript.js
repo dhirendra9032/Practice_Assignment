@@ -1,1 +1,0 @@
-var dk='dhrendra';
