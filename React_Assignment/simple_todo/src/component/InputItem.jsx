@@ -13,7 +13,9 @@ export const InputItem = ({item}) => {
     return (
         <div className={isToggle?"outputBox isToggle":"outputBox"}>
             <h1>{item.title}</h1>
-            <span onClick={()=>handleClick}></span>
+            <span onClick={()=>handleClick}>
+            
+            </span>
         </div>
     )
 }
