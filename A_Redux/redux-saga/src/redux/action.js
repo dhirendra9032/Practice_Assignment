@@ -1,4 +1,4 @@
-import { Add, Subtarct } from "./action.type"
+import { Add, Subtract } from "./action.type"
 
 export const AddAction = (data)=>({
     type:Add,
@@ -7,22 +7,22 @@ export const AddAction = (data)=>({
 });
 
 export const SubtractAction= (data)=>({
-    type:Subtarct,
+    type:Subtract,
     payload:data,
 })
 
 export const MultiplyAction= (data)=>({
-    type:Subtarct,
+    type:Subtract,
     payload:data,
 });
 
 export const IncrementAction= (data)=>({
-    type:Subtarct,
+    type:Subtract,
     payload:data,
 });
 
 export const DecremntAction= (data)=>({
-    type:Subtarct,
+    type:Subtract,
     payload:data,
 });
 

@@ -1,4 +1,4 @@
-import { Add, Decremet, Increment, Multiply, Subtarct } from "./action.type";
+import { Add, Decremet, Increment, Multiply, Subtract } from "./action.type";
 
 export const initialState={
     count: 10 
@@ -9,7 +9,7 @@ export const initialState={
     switch(action.type){
         case Add : return {...state,count:state.count+action.payload};
 
-        case Subtarct :return {...state,count:state.count-action.payload};
+        case Subtract :return {...state,count:state.count-action.payload};
 
         case Multiply : return {...state,count:state.count*action.payload};
 

@@ -9,11 +9,11 @@ const dispatch=useDispatch();
 const number=useSelector((state)=>state.count)
 
 const handleIncrease=()=>{
-  IncrementAction(dispatch(1));
+  dispatch(IncrementAction(5))
 }
 
 const handleAdd=()=>{
-  AddAction(dispatch(2));
+  dispatch(AddAction(1))
 }
 
   return (
